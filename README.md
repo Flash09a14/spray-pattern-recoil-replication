@@ -25,18 +25,31 @@ may sound confusing, but here is an example:
 from random import randint
 
 heatValuesX2 = [970, 950, 940, 980]
+
 heatValuesY2 = [450, 440, 430, 435]
+
 heatValuesX3 = [975, 955, 950, 970]
+
 heatValuesY3 = [370, 390, 350, 340]
+
 heatValuesX4 = [980, 970, 965, 990]
+
 heatValuesY4 = [290, 270, 310, 260]
+
 number1Y = heatValuesY1
+
 number1X = heatValuesX1
+
 number2X = heatValuesX2[randint(0,3)]
+
 number2Y = heatValuesY2[randint(0,3)]
+
 number3X = heatValuesX3[randint(0,3)]
+
 number3Y = heatValuesY3[randint(0,3)]
+
 number4X = heatValuesX4[randint(0,3)]
+
 number4Y = heatValuesY4[randint(0,3)]
 
 # this is a 4 round burst, then, just add a pygame rectangle with the coordinates of the next heat value (which is 4 here), and done!
