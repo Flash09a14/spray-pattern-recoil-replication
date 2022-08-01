@@ -46,3 +46,17 @@ Simple yet effective, popular, balanced
 
 # Cons
 could be tedious to work with high magazines. Alot of the work is manual and isn't automated in the program
+
+# How is it realistic?
+When shooting an auto weapon in real life for a long time, the barrel heats up and the metal expands slightly which affects trajectory.
+Newtons third law of motion is the main science of recoil patterns
+
+A bullet gets shot, a backward force is sent to the gun to your direction, the center of rotation gets affected, the gun gets tilted, causing it to shoot higher. Plus the affected trajectory of the heated barrel, and the rotation being random depending your grip to the gun, this causes it to go in a random bullet pattern.
+
+if "VF" is the force of velocity, and "P" is position then the equation goes like this:
+
+VF (Force of velocity of the bullet) - 0 (Position of the gun, assuming the force is pushed the exact same amount as the velocity) = P (The final position of the gun, after the shot)
+
+I couldn't bother calculating the rotation, I'm too lazy
+
+Have fun modifying
