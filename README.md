@@ -92,3 +92,6 @@ Before solving this problem, it's necessary to express all quantities in consist
 vR = mB/mR•vB = -9.72/332•2,820 = -7.55 ft
 
 math research done on sciencing.com
+
+# CS:GO Patterns on each weapon (that way you can replicate it in this code)
+https://dmarket.com/blog/csgo-spray-patterns/
