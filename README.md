@@ -78,17 +78,17 @@ a = Δv/Δt
 
 so net force can be expressed:
 
-F=m*Δt/Δv
+F=m•Δt/Δv
 
 Calculating Recoil Velocity
 In a typical recoil situation, the release of a body of smaller mass (body 1) has an impact on a larger body (body 2). If both bodies start from rest, the law of conservation of momentum states that m1v1 = -m2v2. The recoil velocity is typically the velocity of body 2 after the release of body 1. This velocity is
 
-v2=−m1/m2*v1
+v2=−m1/m2•v1
 
 Example
 What is the recoil velocity of an 8-pound Winchester rifle after firing a 150-grain bullet with a speed of 2,820 feet/second?
 Before solving this problem, it's necessary to express all quantities in consistent units. One grain is equal to 64.8 mg, so the bullet has a mass (mB) of 9,720 mg, or 9.72 grams. The rifle, on the other hand, has a mass (mR) of 3,632 grams, since there are 454 grams in a pound. It's now easy to calculate the recoil speed of the rifle (vR)in feet/second:
 
-vR = mB/mR*vB = -9.72/332*2,820 = -7.55 ft
+vR = mB/mR•vB = -9.72/332•2,820 = -7.55 ft
 
 math research done on sciencing.com
