@@ -66,10 +66,36 @@ Newtons third law of motion is the main science of recoil patterns
 
 A bullet gets shot, a backward force is sent to the gun to your direction, the center of rotation gets affected, the gun gets tilted, causing it to shoot higher. Plus the affected trajectory of the heated barrel, and the rotation being random depending your grip to the gun, this causes it to go in a random bullet pattern.
 
-if "VF" is the force of velocity, and "P" is position then the equation goes like this:
+# Math
 
-VF (Force of velocity of the bullet) - 0 (Position of the gun, assuming the force is pushed the exact same amount as the velocity) = P (The final position of the gun, after the shot)
+The recoil of a firearm, whether large or small, is a result of the law of conservation of momentum. Assuming that the firearm and projectile are both at rest before firing, then their total momentum is zero. Assuming a near free-recoil condition, and neglecting the gases ejected from the barrel, (an acceptable first estimate), then immediately after firing, conservation of momentum requires that the total momentum of the firearm and projectile is the same as before, namely zero. Stating this mathematically:
 
-I couldn't bother calculating the rotation, I'm too lazy
+{\displaystyle p_{f}+p_{p}=0\,}p_{f}+p_{p}=0\,
+where {\displaystyle p_{f}\,}p_{f}\, is the momentum of the firearm and {\displaystyle p_{p}\,}p_{p}\, is the momentum of the projectile. In other words, immediately after firing, the momentum of the firearm is equal and opposite to the momentum of the projectile.
 
-Have fun modifying
+Since momentum of a body is defined as its mass multiplied by its velocity, we can rewrite the above equation as:
+
+{\displaystyle m_{f}v_{f}+m_{p}v_{p}=0\,}m_{f}v_{f}+m_{p}v_{p}=0\,
+where:
+
+{\displaystyle m_{f}\,}m_{f}\, is the mass of the firearm
+{\displaystyle v_{f}\,}v_{f}\, is the velocity of the firearm immediately after firing
+{\displaystyle m_{p}\,}m_{p}\, is the mass of the projectile
+{\displaystyle v_{p}\,}v_{p}\, is the velocity of the projectile immediately after firing
+A force integrated over the time period during which it acts will yield the momentum supplied by that force. The counter-recoil force must supply enough momentum to the firearm to bring it to a halt. This means that:
+
+{\displaystyle \int _{0}^{t_{cr}}F_{cr}(t)\,dt=-m_{f}v_{f}=m_{p}v_{p}}\int _{0}^{{t_{{cr}}}}F_{{cr}}(t)\,dt=-m_{f}v_{f}=m_{p}v_{p}
+where:
+
+{\displaystyle F_{cr}(t)\,}F_{{cr}}(t)\, is the counter-recoil force as a function of time (t)
+{\displaystyle t_{cr}\,}t_{{cr}}\, is duration of the counter-recoil force
+A similar equation can be written for the recoil force on the firearm:
+
+{\displaystyle \int _{0}^{t_{r}}F_{r}(t)\,dt=m_{f}v_{f}=-m_{p}v_{p}}\int _{0}^{{t_{r}}}F_{r}(t)\,dt=m_{f}v_{f}=-m_{p}v_{p}
+where:
+
+{\displaystyle F_{r}(t)\,}F_{r}(t)\, is the recoil force as a function of time (t)
+{\displaystyle t_{r}\,}t_{r}\, is duration of the recoil force
+Assuming the forces are somewhat evenly spread out over their respective durations, the condition for free-recoil is {\displaystyle t_{r}\ll t_{cr}}t_{r}\ll t_{{cr}}, while for zero-recoil, {\displaystyle F_{r}(t)+F_{cr}(t)=0}F_{r}(t)+F_{{cr}}(t)=0
+
+
