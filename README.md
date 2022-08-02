@@ -67,35 +67,28 @@ Newtons third law of motion is the main science of recoil patterns
 A bullet gets shot, a backward force is sent to the gun to your direction, the center of rotation gets affected, the gun gets tilted, causing it to shoot higher. Plus the affected trajectory of the heated barrel, and the rotation being random depending your grip to the gun, this causes it to go in a random bullet pattern.
 
 # Math
+Law of Conservation of Momentum
+Newton's Third Law states that every applied force has an equal and opposite reaction. An example commonly cited when explaining this law is that of a speeding car hitting a brick wall. The car exerts a force on the wall, and the wall exerts a reciprocal force on the car that crushes it. Mathematically, the incident force (FI) equals the force (FR) magnitude and acts in the opposite direction:
 
-The recoil of a firearm, whether large or small, is a result of the law of conservation of momentum. Assuming that the firearm and projectile are both at rest before firing, then their total momentum is zero. Assuming a near free-recoil condition, and neglecting the gases ejected from the barrel, (an acceptable first estimate), then immediately after firing, conservation of momentum requires that the total momentum of the firearm and projectile is the same as before, namely zero. Stating this mathematically:
+FI=−FR
 
-{\displaystyle p_{f}+p_{p}=0\,}p_{f}+p_{p}=0\,
-where {\displaystyle p_{f}\,}p_{f}\, is the momentum of the firearm and {\displaystyle p_{p}\,}p_{p}\, is the momentum of the projectile. In other words, immediately after firing, the momentum of the firearm is equal and opposite to the momentum of the projectile.
+Newton's Second Law defines force as mass time acceleration. Acceleration is change in velocity:
 
-Since momentum of a body is defined as its mass multiplied by its velocity, we can rewrite the above equation as:
+a = Δv/Δt
 
-{\displaystyle m_{f}v_{f}+m_{p}v_{p}=0\,}m_{f}v_{f}+m_{p}v_{p}=0\,
-where:
+so net force can be expressed:
 
-{\displaystyle m_{f}\,}m_{f}\, is the mass of the firearm
-{\displaystyle v_{f}\,}v_{f}\, is the velocity of the firearm immediately after firing
-{\displaystyle m_{p}\,}m_{p}\, is the mass of the projectile
-{\displaystyle v_{p}\,}v_{p}\, is the velocity of the projectile immediately after firing
-A force integrated over the time period during which it acts will yield the momentum supplied by that force. The counter-recoil force must supply enough momentum to the firearm to bring it to a halt. This means that:
+F=m*Δt/Δv
 
-{\displaystyle \int _{0}^{t_{cr}}F_{cr}(t)\,dt=-m_{f}v_{f}=m_{p}v_{p}}\int _{0}^{{t_{{cr}}}}F_{{cr}}(t)\,dt=-m_{f}v_{f}=m_{p}v_{p}
-where:
+Calculating Recoil Velocity
+In a typical recoil situation, the release of a body of smaller mass (body 1) has an impact on a larger body (body 2). If both bodies start from rest, the law of conservation of momentum states that m1v1 = -m2v2. The recoil velocity is typically the velocity of body 2 after the release of body 1. This velocity is
 
-{\displaystyle F_{cr}(t)\,}F_{{cr}}(t)\, is the counter-recoil force as a function of time (t)
-{\displaystyle t_{cr}\,}t_{{cr}}\, is duration of the counter-recoil force
-A similar equation can be written for the recoil force on the firearm:
+v2=−m1/m2*v1
 
-{\displaystyle \int _{0}^{t_{r}}F_{r}(t)\,dt=m_{f}v_{f}=-m_{p}v_{p}}\int _{0}^{{t_{r}}}F_{r}(t)\,dt=m_{f}v_{f}=-m_{p}v_{p}
-where:
+Example
+What is the recoil velocity of an 8-pound Winchester rifle after firing a 150-grain bullet with a speed of 2,820 feet/second?
+Before solving this problem, it's necessary to express all quantities in consistent units. One grain is equal to 64.8 mg, so the bullet has a mass (mB) of 9,720 mg, or 9.72 grams. The rifle, on the other hand, has a mass (mR) of 3,632 grams, since there are 454 grams in a pound. It's now easy to calculate the recoil speed of the rifle (vR)in feet/second:
 
-{\displaystyle F_{r}(t)\,}F_{r}(t)\, is the recoil force as a function of time (t)
-{\displaystyle t_{r}\,}t_{r}\, is duration of the recoil force
-Assuming the forces are somewhat evenly spread out over their respective durations, the condition for free-recoil is {\displaystyle t_{r}\ll t_{cr}}t_{r}\ll t_{{cr}}, while for zero-recoil, {\displaystyle F_{r}(t)+F_{cr}(t)=0}F_{r}(t)+F_{{cr}}(t)=0
+vR = mB/mR*vB = -9.72/332*2,820 = -7.55 ft
 
-
+math research done on sciencing.com
