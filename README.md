@@ -21,7 +21,7 @@ simple. just make more lists with a number of x and y coordinates, then use said
 
 may sound confusing, but here is an example:
 
-
+```python
 from random import randint
 
 heatValuesX2 = [970, 950, 940, 980]
@@ -51,6 +51,7 @@ number3Y = heatValuesY3[randint(0,3)]
 number4X = heatValuesX4[randint(0,3)]
 
 number4Y = heatValuesY4[randint(0,3)]
+```
 
 # this is a 4 round burst, then, just add a pygame rectangle with the coordinates of the next heat value (which is 4 here), and done!
 
