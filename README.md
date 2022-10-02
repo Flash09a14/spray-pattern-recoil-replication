@@ -53,7 +53,7 @@ number4X = heatValuesX4[randint(0,3)]
 number4Y = heatValuesY4[randint(0,3)]
 ```
 
-# this is a 4 round burst, then, just add a pygame rectangle with the coordinates of the next heat value (which is 4 here), and done!
+#### this is a 4 round burst, then, just add a pygame rectangle with the coordinates of the next heat value (which is 4 here), and done!
 
 # Pros
 Simple yet effective, popular, balanced
