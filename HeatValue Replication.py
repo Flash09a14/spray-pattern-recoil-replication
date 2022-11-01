@@ -11,7 +11,7 @@ import time
 pygame.init()
 
 running = True
-fire_rate = 0.3
+fire_rate = 0.1
 
 # main
 while running:
@@ -35,20 +35,26 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
-    # prints heat value and draws bullet (square on random assigned position/coordinate on the x and y values)
-    print("heat value is 1")
-    pygame.draw.rect(scrn, (255, 0, 0), pygame.Rect(number1X, number1Y, 30, 30), border_radius=10)
-    time.sleep(fire_rate)
-    print("heat value is 2")
-    pygame.draw.rect(scrn, (0, 255, 0), pygame.Rect(number2X, number2Y, 30, 30), border_radius=10)
-    time.sleep(fire_rate)
-    print("heat value is 3")
-    pygame.draw.rect(scrn, (0, 0, 255), pygame.Rect(number3X, number3Y, 30, 30), border_radius=10)
-    # delay (reload)
-    time.sleep(0.7)
-    print("reloading")
-
-    # display flip
+    click = pygame.mouse.get_pressed()
+    if click[0]:
+        # prints heat value and draws bullet (square on random assigned position/coordinate on the x and y values)
+        print("heat value is 1")
+        pygame.draw.rect(scrn, (255, 0, 0), pygame.Rect(number1X, number1Y, 30, 30), border_radius=10)
+        pygame.display.update()
+        time.sleep(fire_rate)
+        print("heat value is 2")
+        pygame.draw.rect(scrn, (0, 255, 0), pygame.Rect(number2X, number2Y, 30, 30), border_radius=10)
+        pygame.display.update()
+        time.sleep(fire_rate)
+        print("heat value is 3")
+        pygame.draw.rect(scrn, (0, 0, 255), pygame.Rect(number3X, number3Y, 30, 30), border_radius=10)
+        # update
+        pygame.display.update()
+        # delay (reload)
+        time.sleep(0.7)
+        print("reloading")
+    if click[1]:
+        scrn.fill((0, 0, 0))
     pygame.display.flip()
 
     # green is where it lands on the second shot
