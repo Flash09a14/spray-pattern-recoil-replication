@@ -79,7 +79,7 @@ a = Δv/Δt
 ```
 so net force can be expressed:
 ```
-F=m•Δt/Δv
+F=m•Δv/Δt
 ```
 Calculating Recoil Velocity
 In a typical recoil situation, the release of a body of smaller mass (body 1) has an impact on a larger body (body 2). If both bodies start from rest, the law of conservation of momentum states that m1v1 = -m2v2. The recoil velocity is typically the velocity of body 2 after the release of body 1. This velocity is
